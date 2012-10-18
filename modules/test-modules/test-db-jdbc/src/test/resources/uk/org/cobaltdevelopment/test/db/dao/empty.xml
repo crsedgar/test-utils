@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- instructs DBUnit to empty all 3 tables, useful when you want to test 
+	adding data without having to concern yourself with other records -->
+<dataset>
+	<t_user />
+	<t_role />
+	<t_user_role />
+</dataset>

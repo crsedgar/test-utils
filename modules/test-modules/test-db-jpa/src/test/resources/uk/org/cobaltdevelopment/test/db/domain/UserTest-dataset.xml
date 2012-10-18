@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dataset>
+	<!-- illustrates the use of the [NULL] token, this instructs the DataSetsTestExecutionListener 
+		to pass a SQL null for specified column -->
+	<t_user id="1" user_name="crsedgar" date_registered="[NULL]"
+		account_id="[NULL]" />
+	<t_role id="1" name="ADMIN" user_id="1" />
+	<t_role id="2" name="USER" user_id="1" />
+
+	<t_user id="2" user_name="tlmartin" date_registered="2010-10-02"
+		account_id="[NULL]" />
+	<t_role id="3" name="USER" user_id="2" />
+
+	<t_account />
+
+</dataset>

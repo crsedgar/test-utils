@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dataset>
+	<t_user id="1" user_name="crsedgar" date_registered="[NULL]"
+		account_id="[NULL]" />
+	<!-- instruct DBUnit to clean child tables or referential integrity violation 
+		may be raised depending on previous test method executions. -->
+	<t_role />
+	<t_account />
+</dataset>

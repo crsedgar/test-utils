@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dataset>
+
+	<t_user id="[ID1]" user_name="msmith" date_registered="[NULL]"
+		account_id="[NULL]" />
+	<t_role id="[ROLE_ID1]" name="ADMIN" user_id="[ID1]" />
+	<t_role id="[ROLE_ID2]" name="MODERATOR" user_id="[ID1]" />
+
+	<t_user id="[ID2]" user_name="tbrown" date_registered="2010-02-19 12:00:00"
+		account_id="[NULL]" />
+	<t_role id="[ROLE_ID3]" name="ADMIN" user_id="[ID2]" />
+
+	<t_account />
+
+</dataset>

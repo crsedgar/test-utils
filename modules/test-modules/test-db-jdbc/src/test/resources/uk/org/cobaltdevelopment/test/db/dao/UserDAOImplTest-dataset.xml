@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- illustrates the use of the SQL null token, this token is supported by 
+	the ReplacementDataSet code to instruct DBUnit to enter null when processing 
+	data set. -->
+<dataset>
+	<t_user id="1" user_name="jtbrown" date_registered="[NULL]" />
+	<t_role id="1" name="ADMIN" />
+	<t_role id="2" name="MODERATOR" />
+
+	<t_user_role user_id="1" role_id="1" />
+	<t_user_role user_id="1" role_id="2" />
+
+</dataset>
