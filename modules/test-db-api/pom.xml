@@ -12,11 +12,6 @@
 	<name>Test Database Utility</name>
 	<description><![CDATA[This project contains an API for testing with a Database.]]></description>
 	<dependencies>
-		<!-- <dependency> -->
-		<!-- <groupId>junit</groupId> -->
-		<!-- <artifactId>junit</artifactId> -->
-		<!-- <version>4.7</version> -->
-		<!-- </dependency> -->
 		<dependency>
 			<groupId>org.dbunit</groupId>
 			<artifactId>dbunit</artifactId>
