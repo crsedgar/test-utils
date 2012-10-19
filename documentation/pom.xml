@@ -24,6 +24,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-site-plugin</artifactId>
+				<version>3.0</version>
 				<executions>
 					<execution>
 						<id>site</id>
@@ -37,6 +38,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-assembly-plugin</artifactId>
+				<version>2.3</version>
 				<configuration>
 					<descriptor>src/site/assembly/docs.xml</descriptor>
 				</configuration>

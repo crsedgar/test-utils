@@ -2,7 +2,7 @@
 
 <dataset>
 	<t_user id="1" user_name="jtbrown" date_registered="[NULL]" />
-	<t_user id="[ID]" user_name="cmedgar" date_registered="2012-08-21 12:00:00" />
+	<t_user id="[ID]" user_name="cmedgar" date_registered="2012-08-21 12:00:00.0" />
 
 	<t_role id="1" name="ADMIN" />
 	<t_role id="2" name="MODERATOR" />
