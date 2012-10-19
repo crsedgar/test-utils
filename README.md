@@ -1,11 +1,11 @@
 #Test Utils
 A collection of unit testing utilities.
 
-##Modules List
+#Modules List
 * Test DB API
 
-##Test DB API
-Introduction
+#Test DB API
+##Introduction
 Test DB API is a Java 5 API abstraction layer over the popular DBUnit unit testing tool. The Annotation based API fully integrates with the Spring 3.0 Test project.
 
 There are two sub modules that illustrate how to use the API with a Spring 3 JDBC project and a Spring 3 enabled JPA project. 
@@ -34,10 +34,10 @@ Download the source and run <code>mvn install</code>. Then add following depende
 			<scope>test</scope>
 	</dependency>
 
-###Usage
+##Usage
 Extend the AbstractDbUnitTestCase and add the <code>DataSets</code> annotation to any test method that you would like to hook into DBUnit.
 
-####Setting Up the Database
+###Setting Up the Database
 As a convention a set up dataset is read from the classpath by constructing the name from the following pattern <code>${SimpleClassName}-dataset.xml</code> e.g. A test class of JdbcUserDAOTest would resolve to <code>JdbcUserDAOTest-dataset.xml</code>.     
 
 If using a standard maven project it is quite convenient to place all dataset XML files within the <code>src/test/resources/</code> folder.  
@@ -59,7 +59,7 @@ You can override the setup dataset by passing in the relative dataset file name 
 			assertThat(user.getUserName(), is(equalTo("jtbrown")));
 		}
 	
-####Asserting changes
+###Asserting changes
 The other use case of DBUnit is validating the state of a database after running DAO mutation code.
 
 The <code>assertDataSet</code> element on the <code>DataSets</code> annotation is used to explicitly state what dataset should be used to validate the state of the database after the test method has finished executing (dataset assertions will not run by default).  
