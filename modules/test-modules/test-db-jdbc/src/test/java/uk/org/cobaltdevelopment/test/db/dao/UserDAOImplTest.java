@@ -111,7 +111,7 @@ public class UserDAOImplTest extends AbstractDbUnitTestCase {
 	private Date createDate(int year, int month, int date) {
 		Calendar cal = Calendar.getInstance();
 		cal.set(Calendar.MILLISECOND, 0);
-		cal.set(Calendar.HOUR, 12);
+		cal.set(Calendar.HOUR, 0);
 		cal.set(Calendar.MINUTE, 0);
 		cal.set(Calendar.SECOND, 0);
 		cal.set(Calendar.YEAR, year);

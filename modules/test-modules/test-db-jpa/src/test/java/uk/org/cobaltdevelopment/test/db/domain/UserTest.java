@@ -168,7 +168,7 @@ public class UserTest extends AbstractDbUnitTestCase {
 			DateBuilder db = new DateBuilder();
 			db.content = Calendar.getInstance();
 			db.content.set(Calendar.MILLISECOND, 0);
-			db.content.set(Calendar.HOUR, 12);
+			db.content.set(Calendar.HOUR, 0);
 			db.content.set(Calendar.MINUTE, 0);
 			db.content.set(Calendar.SECOND, 0);
 			return db;
