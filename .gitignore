@@ -1,2 +1,3 @@
 .springBeans
 .project
+*.releaseBackup
